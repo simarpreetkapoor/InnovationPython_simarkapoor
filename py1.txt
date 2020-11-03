@@ -1,0 +1,115 @@
+1. Create three variables in a single line and assign values to them in such a manner that each one of
+them belongs to a different data type.
+E.g. :
+a = 1,
+b = 2.01,
+c = 'string'
+
+Ans. 
+
+a, b, c = [1, 2.0, "string"]
+
+=====================================================
+2. Create a variable of type complex and swap it with another variable of type integer
+
+Ans. 
+a = 1 + 5h
+b = int(a)
+print(b)
+
+======================================================
+3. Swap two numbers using a third variable and do the same task without using any third variable.
+
+a = 3
+b = 8
+
+temp = a
+a = b
+b = temp
+
+print(a)
+print(b)
+
+c = 4
+h = 6
+
+c, h = h, c
+print("c = ", c)
+print("h = ", h)
+
+4. Write a program that takes input from the user and prints it using both Python 2.x and Python 3.x Version
+Ans. 
+
+var = raw_input("This is python version 2.x input method")
+
+var = input(This is python version 3.x input method")
+
+============================================
+
+
+5. Write a program to complete the task given below:
+Ask users to enter any 2 numbers in between 1-10 , add the two numbers and keep the sum in
+another variable called z. Add 30 to z and store the output in variable result and print result as the
+final output
+
+Ans. 
+
+first_number = int(input("enter the 1st number between 1 to 10 :  "   ))
+second_number = int(input("enter the 2nd number between 1 to 10:  "   ))
+
+z = (first_number + second_number)
+result = (z) + 30
+print(result)
+
+
+=======================================================
+
+
+6. Write a program to check the data type of the entered values.
+HINT: Printed output should say - The data type of the input value is : int/float/string/etc
+
+Ans. 
+
+A, B, C, D = 4, 6.8, "simar", True
+
+print("The data type of the input value is : ", type(A) , type(B), type(C), type(D)
+      )
+
+======================================================
+
+7. Create Variables using formats such as Upper CamelCase, Lower CamelCase, SnakeCase and
+UPPERCASE.
+
+lower_camelCase = "america" 
+if its not in lower then we can format it like below to make it lower
+lower_camelCase.lower()
+
+
+Upper_camelCase = "America"
+if its not in  upper then we ccan eformat it like below to make it upper
+Upper_camelCase.tittle()
+
+snake_camelCase = "united_states_of_america"
+
+
+UPPERCASE = "AMERICA"
+if its not upper can we can format it like below to make it upper
+
+UPPERCASE.Upper()
+
+========================================================
+
+8. If one data type value is assigned to ‘a’ variable and then a different data type value is assigned to ‘a’
+again. Will it change the value? If Yes then Why?
+
+ans. 
+
+Yes the value will change because python checks the value of "a" whihc is assigned last. 
+
+
+
+
+
+
+
+
